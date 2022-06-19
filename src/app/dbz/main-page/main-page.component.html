@@ -1,0 +1,26 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-personajes>
+
+        </app-personajes>
+        
+    </div>
+    <!-- Ejemplo de Input y Outpu
+        En el output se trata como un evento que tiene el componente
+        hijo y se recibe el objeto que emite el componente hijo con
+        $event
+     -->
+    <div class="col">
+        <app-agregar 
+            [nuevo] = "nuevo"
+            
+        >
+
+        <!-- (onNuevoPersonaje)="agregarNuevoPersonaje($event)" -->
+
+        </app-agregar>
+    </div>
+</div>
